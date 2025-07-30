@@ -1,6 +1,6 @@
 import { useState } from "preact/hooks";
 
-export function App() {
+function Card() {
   const [count, setCount] = useState(0);
 
   return (
@@ -14,3 +14,5 @@ export function App() {
     </div>
   );
 }
+
+export default Card;

@@ -1,5 +1,6 @@
 import preactLogo from "./assets/preact.svg";
 import viteLogo from "/vite.svg";
+import Card from "./components/Card";
 import "./app.css";
 
 export function App() {
@@ -24,6 +25,7 @@ export function App() {
         </a>
         , the official Preact + Vite starter
       </p>
+      <Card />
       <p class="read-the-docs">
         Click on the Vite and Preact logos to learn more
       </p>
